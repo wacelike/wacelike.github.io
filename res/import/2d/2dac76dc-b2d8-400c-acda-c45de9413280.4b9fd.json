@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fish03",
+    "texture": "abRO/4NoJN/rxYe6V7+/Nn",
+    "rect": [
+      0,
+      0,
+      149,
+      98
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      150,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

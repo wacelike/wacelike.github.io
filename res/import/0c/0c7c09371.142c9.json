@@ -1,0 +1,157 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "Fish",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Fish",
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "43TPbLCTlB+67KwZPBXp0u"
+          }
+        },
+        {
+          "__type__": "964cf0b0k1IG7EOAvVCwh7w",
+          "node": {
+            "__id__": 1
+          },
+          "mSpeed": 2
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 1
+          },
+          "_defaultClip": {
+            "__uuid__": "eajl5jmApGp7vwjoWfkgGR"
+          },
+          "_clips": [
+            {
+              "__uuid__": "eajl5jmApGp7vwjoWfkgGR"
+            }
+          ]
+        },
+        {
+          "__type__": "cc.BoxCollider",
+          "node": {
+            "__id__": 1
+          },
+          "_offset": {
+            "__type__": "cc.Vec2",
+            "x": -6.5,
+            "y": 8.2
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 27.1,
+            "height": 26.4
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "36YWtMi4NOrLvWOWKEjNO1"
+        },
+        "fileId": "48Hd7yUrdOD6q6QxBqw3Bo"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 148,
+        "height": 57
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 0.95,
+        "y": 0.1
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          -468.842,
+          -46.463,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 2,
+      "groupIndex": 2
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "fish01",
+      "texture": "3aiYeBN+5MprwtB4bKdAYh",
+      "rect": [
+        1,
+        13,
+        148,
+        57
+      ],
+      "offset": [
+        0,
+        8.5
+      ],
+      "originalSize": [
+        150,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "fishAnim",
+    "_duration": 1.2,
+    "sample": 10,
+    "curveData": {
+      "props": {
+        "scaleY": [
+          {
+            "frame": 0,
+            "value": 1
+          },
+          {
+            "frame": 0.6,
+            "value": 1.3
+          },
+          {
+            "frame": 1.2,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+]

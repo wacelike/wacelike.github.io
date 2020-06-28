@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "decorate1",
+    "texture": "dabI/ZyRRKi7AoKahRxcPj",
+    "rect": [
+      0,
+      9,
+      111,
+      947
+    ],
+    "offset": [
+      0,
+      -2.5
+    ],
+    "originalSize": [
+      111,
+      960
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
